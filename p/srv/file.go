@@ -5,10 +5,11 @@
 package srv
 
 import (
-	"github.com/lionkov/go9p/p"
 	"log"
 	"sync"
 	"time"
+
+	"github.com/crgimenes/go9p/p"
 )
 
 // The FStatOp interface provides a single operation (Stat) that will be
@@ -553,7 +554,7 @@ func (*Fsrv) Wstat(req *Req) {
 }
 
 func (*Fsrv) Flush(req *Req) {
-        req.Flush()
+	req.Flush()
 }
 
 func (*Fsrv) FidDestroy(ffid *Fid) {

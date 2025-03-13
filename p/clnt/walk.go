@@ -5,8 +5,9 @@
 package clnt
 
 import (
-	"github.com/lionkov/go9p/p"
 	"strings"
+
+	"github.com/crgimenes/go9p/p"
 )
 
 // Starting from the file associated with fid, walks all wnames in

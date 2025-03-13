@@ -7,8 +7,6 @@
 package main
 
 import (
-	"github.com/lionkov/go9p/p"
-	"github.com/lionkov/go9p/p/srv"
 	"crypto/rand"
 	"crypto/rsa"
 	"crypto/tls"
@@ -18,6 +16,9 @@ import (
 	"log"
 	"math/big"
 	"os"
+
+	"github.com/crgimenes/go9p/p"
+	"github.com/crgimenes/go9p/p/srv"
 )
 
 type Ramfs struct {

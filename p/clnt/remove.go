@@ -4,7 +4,7 @@
 
 package clnt
 
-import "github.com/lionkov/go9p/p"
+import "github.com/crgimenes/go9p/p"
 
 // Removes the file associated with the Fid. Returns nil if the
 // operation is successful.

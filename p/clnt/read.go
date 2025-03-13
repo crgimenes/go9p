@@ -5,8 +5,9 @@
 package clnt
 
 import (
-	"github.com/lionkov/go9p/p"
 	"io"
+
+	"github.com/crgimenes/go9p/p"
 )
 
 // Reads count bytes starting from offset from the file associated with the fid.

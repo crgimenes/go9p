@@ -5,8 +5,9 @@
 package clnt
 
 import (
-	"github.com/lionkov/go9p/p"
 	"net"
+
+	"github.com/crgimenes/go9p/p"
 )
 
 // Creates an authentication fid for the specified user. Returns the fid, if

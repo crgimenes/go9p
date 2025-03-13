@@ -8,11 +8,12 @@ package clnt
 
 import (
 	"fmt"
-	"github.com/lionkov/go9p/p"
 	"log"
 	"net"
 	"sync"
 	"sync/atomic"
+
+	"github.com/crgimenes/go9p/p"
 )
 
 // Debug flags

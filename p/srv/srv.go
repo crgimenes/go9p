@@ -7,9 +7,10 @@
 package srv
 
 import (
-	"github.com/lionkov/go9p/p"
 	"net"
 	"sync"
+
+	"github.com/crgimenes/go9p/p"
 )
 
 type reqStatus int

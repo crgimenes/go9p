@@ -15,8 +15,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/lionkov/go9p/p"
-	"github.com/lionkov/go9p/p/srv"
+	"github.com/crgimenes/go9p/p"
+	"github.com/crgimenes/go9p/p/srv"
 )
 
 type Fid struct {

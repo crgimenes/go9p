@@ -1,13 +1,15 @@
+//go:build httpstats
 // +build httpstats
 
 package srv
 
 import (
-	"github.com/lionkov/go9p/p"
 	"fmt"
 	"io"
 	"net/http"
 	"sync"
+
+	"github.com/crgimenes/go9p/p"
 )
 
 var mux sync.RWMutex
@@ -32,7 +34,7 @@ func (srv *Srv) statsRegister() {
 		http.HandleFunc("/go9p/", StatsHandler)
 		go http.ListenAndServe(":6060", nil)
 	})
-		
+
 	register("/go9p/srv/"+srv.Id, srv)
 }
 

@@ -10,14 +10,15 @@
 package main
 
 import (
-	"github.com/lionkov/go9p/p"
-	"github.com/lionkov/go9p/p/srv"
 	"flag"
 	"fmt"
 	"log"
 	"os"
 	"strconv"
 	"time"
+
+	"github.com/crgimenes/go9p/p"
+	"github.com/crgimenes/go9p/p/srv"
 )
 
 type ClFile struct {

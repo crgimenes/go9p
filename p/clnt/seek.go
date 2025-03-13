@@ -5,7 +5,7 @@
 package clnt
 
 import (
-	"github.com/lionkov/go9p/p"
+	"github.com/crgimenes/go9p/p"
 )
 
 var Eisdir = &p.Error{"file is a directory", p.EIO}

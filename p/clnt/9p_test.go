@@ -15,8 +15,8 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/lionkov/go9p/p"
-	"github.com/lionkov/go9p/p/srv/ufs"
+	"github.com/crgimenes/go9p/p"
+	"github.com/crgimenes/go9p/p/srv/ufs"
 )
 
 var debug = flag.Int("debug", 0, "print debug messages")

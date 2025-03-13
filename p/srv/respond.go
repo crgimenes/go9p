@@ -4,8 +4,11 @@
 
 package srv
 
-import "fmt"
-import "github.com/lionkov/go9p/p"
+import (
+	"fmt"
+
+	"github.com/crgimenes/go9p/p"
+)
 
 // Respond to the request with Rerror message
 func (req *Req) RespondError(err interface{}) {

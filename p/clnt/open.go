@@ -5,8 +5,9 @@
 package clnt
 
 import (
-	"github.com/lionkov/go9p/p"
 	"strings"
+
+	"github.com/crgimenes/go9p/p"
 )
 
 // Opens the file associated with the fid. Returns nil if

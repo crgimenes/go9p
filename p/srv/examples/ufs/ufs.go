@@ -8,13 +8,13 @@ import (
 	"flag"
 	"log"
 
-	"github.com/lionkov/go9p/p/srv/ufs"
+	"github.com/crgimenes/go9p/p/srv/ufs"
 )
 
 var (
 	debug = flag.Int("d", 0, "print debug messages")
-	addr = flag.String("addr", ":5640", "network address")
-	user = flag.String("user", "", "user name")
+	addr  = flag.String("addr", ":5640", "network address")
+	user  = flag.String("user", "", "user name")
 )
 
 func main() {

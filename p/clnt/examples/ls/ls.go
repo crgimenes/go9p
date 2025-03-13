@@ -1,12 +1,13 @@
 package main
 
 import (
-	"github.com/lionkov/go9p/p"
-	"github.com/lionkov/go9p/p/clnt"
 	"flag"
 	"io"
 	"log"
 	"os"
+
+	"github.com/crgimenes/go9p/p"
+	"github.com/crgimenes/go9p/p/clnt"
 )
 
 var debuglevel = flag.Int("d", 0, "debuglevel")

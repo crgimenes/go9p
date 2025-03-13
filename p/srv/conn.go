@@ -5,10 +5,11 @@
 package srv
 
 import (
-	"github.com/lionkov/go9p/p"
 	"fmt"
 	"log"
 	"net"
+
+	"github.com/crgimenes/go9p/p"
 )
 
 func (srv *Srv) NewConn(c net.Conn) {

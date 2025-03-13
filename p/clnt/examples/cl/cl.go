@@ -4,14 +4,15 @@ package main
 
 import (
 	"bufio"
-	"github.com/lionkov/go9p/p"
-	"github.com/lionkov/go9p/p/clnt"
 	"flag"
 	"fmt"
 	"io"
 	"os"
 	"path"
 	"strings"
+
+	"github.com/crgimenes/go9p/p"
+	"github.com/crgimenes/go9p/p/clnt"
 )
 
 var addr = flag.String("addr", "127.0.0.1:5640", "network address")
